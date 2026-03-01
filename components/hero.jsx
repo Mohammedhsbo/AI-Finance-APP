@@ -27,31 +27,35 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="pt-40 pb-20 px-4">
+    <section className="px-4 pb-20 pt-40">
       <div className="container mx-auto text-center">
-        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 gradient-title font-bold">
-          Manage Your Finances <br /> with Intelligence
+        <h1 className="pb-6 text-5xl font-bold leading-[0.95] md:text-7xl lg:text-[96px]">
+          <span className="gradient-title">Manage Your Finances</span>
+          <br />
+          <span className="text-black">with Intelligence</span>
         </h1>
-        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p className="mx-auto mb-10 max-w-2xl text-lg text-gray-600 md:text-xl">
           An AI-powered financial management platform that helps you track,
           analyze, and optimize your spending with real-time insights.
         </p>
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
-            <Button size="lg" className="px-8">
+            <Button
+              size="lg"
+              className="h-12 rounded-full bg-blue-600 px-9 text-white shadow-lg shadow-blue-600/25 hover:bg-blue-700"
+            >
               Get Started
             </Button>
           </Link>
-         
         </div>
-        <div className="hero-image-wrapper mt-5 md:mt-0">
+        <div className="hero-image-wrapper mt-8 md:mt-2">
           <div ref={imageRef} className="hero-image">
             <Image
               src="/banner.jpeg"
               width={1280}
               height={720}
               alt="Dashboard Preview"
-              className="rounded-lg shadow-2xl border mx-auto"
+              className="mx-auto rounded-2xl border border-black/10 shadow-2xl shadow-black/10"
               priority
             />
           </div>
