@@ -38,10 +38,15 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^25.2.0",
+    "@types/node": "^25.3.3",
+    "@types/react": "^19.2.14",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5.9.3"
+  },
+  "optionalDependencies": {
+    "lightningcss-win32-x64-msvc": "1.30.2"
   }
 }
