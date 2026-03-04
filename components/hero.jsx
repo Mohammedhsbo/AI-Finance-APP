@@ -30,9 +30,9 @@ const HeroSection = () => {
     <section className="px-4 pb-20 pt-40">
       <div className="container mx-auto text-center">
         <h1 className="pb-6 text-5xl font-bold leading-[0.95] md:text-7xl lg:text-[96px]">
-          <span className="gradient-title">Manage Your Finances</span>
+          <span className="gradient-title">Manage Your Finances <br />with Intelligence</span>
           <br />
-          <span className="text-black">with Intelligence</span>
+
         </h1>
         <p className="mx-auto mb-10 max-w-2xl text-lg text-gray-600 md:text-xl">
           An AI-powered financial management platform that helps you track,
